@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    width: 100vw;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);  
+    transition: all 1s ease-out;
+    animation-name: twerk;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes twerk {
+    from {
+            
+    }
+
+    to {
+        width: 300px;
+        height: 300px;
+        transform: rotate(3600deg);
+    }
+}
